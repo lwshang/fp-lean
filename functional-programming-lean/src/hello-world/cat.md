@@ -20,7 +20,7 @@ The first step in implementing `feline` is to create a package and decide how to
 In this case, because the program is so simple, all the code will be placed in `Main.lean`.
 The first step is to run `lake new feline`.
 Edit the Lakefile to remove the library, and delete the generated library code and the reference to it from `Main.lean`.
-Once this has been done, `lakefile.lean` should contain:
+Once this has been done, `lakefile.toml` should contain:
 
 ```lean
 {{#include ../../../examples/feline/1/lakefile.toml}}
